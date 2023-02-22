@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: aqua;
+    text-align: center;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    width: 970px;
+    height: 76px;
+    display: flex;
+}
+.avatar img{
+width: 125px;
+height: 55px;
+padding-top: 15px;
+}
+.avatar{
+    width: 30%;
+    padding-left: 100px;
+}
+.search input{
+    width: 455px;
+    height: 35px;
+}
+.search{
+    padding-top: 20px;
+}
+.kit-a{
+    position: absolute; 
+    padding-top: 25px;
+    padding-left: 800px;
+}
+.icon{
+    float: right;
+    padding-top: 25px;
+}
